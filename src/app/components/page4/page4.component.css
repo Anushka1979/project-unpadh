@@ -1,0 +1,35 @@
+#main{
+    padding: 5vw 7vw;
+}
+#page{
+    width: 85vw;
+    height: 80vh;
+    background-color:rgb(82, 185, 166);
+    border-radius: 3vw;
+    display: flex;
+    padding: 5vw;
+    color: #fff;
+}
+h1{
+    width: 40vw;
+    font-weight: 500;
+    font-size: 2.5vw;
+}
+
+p{
+    width: 32vw;
+    line-height: 1.7;
+    margin-bottom: 3vw;
+}
+a{
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 1vw 3vw;
+    border-radius: 3vw;
+    transition:ease-out 1s;
+    color: #fff;
+}
+a:hover{
+    background-color: #fff;
+    color: black;
+}

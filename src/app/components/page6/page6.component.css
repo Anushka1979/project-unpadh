@@ -1,0 +1,58 @@
+#main{
+    padding:  4vw 7vw;
+}
+.boxes{
+    display: flex;
+    justify-content: space-between;
+    width: 85vw;
+}
+.img{
+    width: 25vw;
+    height: 15vw;
+    border-radius: 0.8vw;
+    background-size: cover;
+    transition: ease 1s;
+}
+#img1{
+    background-image: url(https://www.theunpadh.com/storage/news_and_article/1660112266news-8.jpg);
+}
+#img2{
+    background-image: url(https://www.theunpadh.com/storage/news_and_article/1660112407news-7.jpg);
+}
+#img3{
+    background-image: url(https://www.theunpadh.com/storage/news_and_article/1660112428news-6.jpg);
+}
+img{
+    width: 100%;
+    border-radius: 0.8vw;
+}
+#img:hover .img{
+    width: 28vw;
+    overflow: hidden;
+}
+i{
+    color: rgb(82, 185, 166);
+}
+h4{
+    padding: 0 1vw;
+    font-weight: 600;
+    opacity: 0.8;
+    font-size: 1vw;
+}
+a{
+    text-decoration: none;
+    color: #000;
+    font-size: 1.5vw;
+    font-weight: 700;
+    opacity: 0.7;
+}
+h2{
+    width: 27vw;
+    padding: 0 1vw;
+}
+p{
+    width: 26vw;
+    padding: 0 1vw;
+    line-height: 1.7;
+    opacity: 0.7;
+}

@@ -1,0 +1,44 @@
+.main{
+    display: flex;
+    padding: 3vw 6vw;
+    justify-content: space-between;
+}
+.right{
+    padding: 1vw;
+}
+h1{
+    font-weight: 600;
+    margin-bottom: 6vw;
+    font-size: 1.7vw;
+}
+
+.left{
+    padding: 1vw;
+}
+.left>p{
+    line-height: 1.8vw;
+    width: 43vw;
+}
+.box{
+    display: flex;
+    margin-bottom: 1vw;
+    width: 27vw;
+    padding: 0.5vw;
+    border-radius: 1vw;
+    align-items: center;
+    gap: 2vw;
+}
+.box:hover{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+}
+h4{
+    font-weight: 500;
+}
+.box-right>p{
+    opacity: 0.8;
+}
+i{
+    font-size: 2vw;
+    color: rgb(11, 160, 133);
+}
