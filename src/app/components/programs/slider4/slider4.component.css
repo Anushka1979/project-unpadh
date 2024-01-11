@@ -7,7 +7,7 @@
 .courses {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(calc(33.33% - 30px - 60px), 1fr)); /* Three columns in each row with a gap of 10px */
-    gap: 90px; /* Gap between columns */
+    gap: 50px; /* Gap between columns */
 }
 
 .course-container {
@@ -28,18 +28,20 @@
     left: 0; /* Align to the left of the image container */
     width: 304px; /* Make the info box the same width as the image container */
     height: 150px;
-    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent black background */
+    background-color: rgba(255, 255, 255, 1); /* Semi-transparent black background */
     padding: 10px; /* Padding for better visibility */
     display: flex; /* Use flexbox to align items */
     flex-direction: column; /* Stack items vertically */
     justify-content: space-between; /* Space items evenly within the container */
+    border: 2px solid whitesmoke;
+    border-radius: 19px;
 }
 
 .course-info h2,
 .course-info button {
     margin: 0; /* Remove default margin */
     color: black; /* Text color */
-    padding: 10px; /* Padding for both h2 and button */
+    padding: 10px;
 }
 
 .course-info button {
@@ -47,5 +49,6 @@
     border: none;
     border-radius: 19px; /* Rounded corners for the button */
     cursor: pointer; /* Change cursor on hover */
+    width: 100px;
 }
 
