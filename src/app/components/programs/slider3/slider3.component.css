@@ -1,0 +1,27 @@
+.search-container {
+    background-color: rgb(11, 160, 133);
+    height: 70px;
+    margin: 0 40px;
+    border-radius: 16px;
+    display: flex;
+}
+
+.search {
+    flex: 1; /* Allows the input to take the remaining space */
+}
+
+.search input[type="text"] {
+    width: 100%; /* Input width covers the search container */
+    height: 100%; /* Input height covers the search container */
+    padding: 10px; /* Optional: Adds padding for better visual */
+    border: none; /* Removes default input border */
+    border-radius: 16px; /* Maintain border-radius similar to container */
+    background-color: transparent; /* Makes the input background transparent */
+    color: #fff; /* Text color for input */
+    outline: none; /* Removes input outline */
+}
+
+.search input[type="text"]::placeholder {
+    color: white; /* Sets the placeholder text color to white */
+    text-align: center;
+}

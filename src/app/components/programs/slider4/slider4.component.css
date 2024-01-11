@@ -1,0 +1,51 @@
+.programs {
+    /* background-color: lightgray; */
+    padding: 20px; /* Padding for better visibility */
+    margin: 50px; /* Margin for spacing */
+}
+
+.courses {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(calc(33.33% - 30px - 60px), 1fr)); /* Three columns in each row with a gap of 10px */
+    gap: 90px; /* Gap between columns */
+}
+
+.course-container {
+    position: relative; /* Positioning for overlapping content */
+}
+
+.image-container img {
+    width: 304px; /* Make images fill their containers */
+    height: 376px; /* Set the height as needed */
+    object-fit: cover; /* Maintain aspect ratio and cover container */
+    display: block; /* Ensure images don't have any default spacing issues */
+    border-radius: 19px;
+}
+
+.course-info {
+    position: absolute; /* Position absolute for overlay */
+    bottom: 0; /* Align to the bottom of the image container */
+    left: 0; /* Align to the left of the image container */
+    width: 304px; /* Make the info box the same width as the image container */
+    height: 150px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent black background */
+    padding: 10px; /* Padding for better visibility */
+    display: flex; /* Use flexbox to align items */
+    flex-direction: column; /* Stack items vertically */
+    justify-content: space-between; /* Space items evenly within the container */
+}
+
+.course-info h2,
+.course-info button {
+    margin: 0; /* Remove default margin */
+    color: black; /* Text color */
+    padding: 10px; /* Padding for both h2 and button */
+}
+
+.course-info button {
+    background-color: rgba(11, 160, 133, 0.8); /* Button background color */
+    border: none;
+    border-radius: 19px; /* Rounded corners for the button */
+    cursor: pointer; /* Change cursor on hover */
+}
+
