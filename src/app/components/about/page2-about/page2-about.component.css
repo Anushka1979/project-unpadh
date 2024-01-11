@@ -1,0 +1,51 @@
+#header {
+    /* height: 40vw; */
+    background-color: rgb(234, 237, 245);
+    text-align: center;
+    padding: 4vw 20vw;
+}
+
+h1 {
+    font-weight: 300;
+}
+
+#icons {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+}
+
+.line {
+    width: 13vw;
+    height: 2px;
+    background-color: rgb(214, 217, 227);
+}
+
+p {
+    margin-bottom: 4vw;
+}
+
+i {
+    padding: 2vw;
+    background-color: #fff;
+    color: rgb(11, 159, 133);
+    border-radius: 50px;
+    font-size: 2vw;
+    transition: ease 0.5s;
+}
+
+i:hover {
+    color: #fff;
+    background-color: rgb(11, 159, 133);
+}
+
+#text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    opacity: 0.8;
+}
+h5{
+    font-weight: 600;
+}

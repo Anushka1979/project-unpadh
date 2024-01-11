@@ -3,7 +3,8 @@ import { LoginComponent } from './components/login/login.component';
 import { RegisterComponent } from './components/register/register.component';
 import { NavComponent } from './components/nav/nav.component';
 import { Page1Component } from './components/page1/page1.component';
-import { Page2Component } from './components/page2/page2.component';
+import { Page1AboutComponent } from './components/about/page1-about/page1-about.component';
+
 
 export const routes: Routes = [
     {
@@ -23,8 +24,8 @@ export const routes: Routes = [
         component: Page1Component
     },
     {
-        path: 'page2',
-        component: Page2Component
+        path: 'about',
+        component: Page1AboutComponent
     },
     {
         path: '', redirectTo: 'page1', pathMatch: 'full'
