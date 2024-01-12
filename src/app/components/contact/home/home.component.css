@@ -1,0 +1,166 @@
+.main {
+    background-color: rgb(11, 160, 133);
+    display: flex;
+    justify-content: space-around;
+}
+
+#leftdiv {
+    width: 930px;
+}
+
+.main h4 {
+    font-size: 30px;
+}
+
+#maintwo {
+    font-weight: 200;
+    padding-left: 100px;
+    margin-top: 100px;
+    width: 270px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#LetstalkLeft {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#form {
+    margin-left: 100px;
+}
+
+#messeagepara {
+    /* margin-top: 50px; */
+    padding-top: 30px;
+
+
+}
+
+#name {
+    gap: 12vw;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Name {
+    border: #f9f9f9;
+    background-color: #f9f9f9;
+    width: 200%;
+    height: 200%;
+}
+
+#details {
+
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.email {
+    border: #f9f9f9;
+    background-color: #f9f9f9;
+    width: 200%;
+    height: 200%;
+
+}
+
+.number {
+    border: #f9f9f9;
+    background-color: #f9f9f9;
+    width: 200%;
+    height: 200%;
+}
+
+#Message {
+    background-color: #f9f9f9;
+    border: #f9f9f9;
+    width: 132%;
+    height: 150px;
+    margin-top: 50px;
+}
+
+.message {
+    background-color: #f9f9f9;
+    border: lightgray;
+}
+
+#Box {
+    background-color: rgb(11, 160, 133);
+    padding-left: 50px;
+    padding-top: 10px;
+    width: 30%;
+    height: 500px;
+}
+
+#Box h2 {
+    width: 200px;
+}
+
+#callnumber {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#callinfo {
+    position: relative;
+    bottom: 15px;
+    right: 20%;
+
+
+
+}
+
+#emailaddress {
+
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#emailinfo {
+    position: relative;
+    right: 11%;
+    bottom: 15px;
+
+}
+
+#checkbox {
+    position: relative;
+    right: 20px;
+    margin: 20px;
+    width: 70%;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: space-around;
+}
+
+#checkboxright {
+    padding-right: 1px;
+}
+
+#checkboxleft {
+    padding-top: 30px;
+}
+
+#buttons {
+    width: 150px;
+    margin-bottom: 40px;
+    border: none;
+    background-color: rgb(11, 160, 133);
+    padding: 0.7vw 1vw;
+    border-radius: 2.5vw;
+    font-size: 1.3vw;
+    cursor: pointer;
+
+}
+
+#send {
+    box-shadow: none;
+    border-color: transparent;
+    background-color: rgb(11, 160, 133);
+}
