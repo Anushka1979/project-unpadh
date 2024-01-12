@@ -15,18 +15,19 @@
 }
 
 .image-container img {
-    width: 304px; /* Make images fill their containers */
+    width: 361px; /* Make images fill their containers */
     height: 376px; /* Set the height as needed */
     object-fit: cover; /* Maintain aspect ratio and cover container */
     display: block; /* Ensure images don't have any default spacing issues */
     border-radius: 19px;
+    border: 2px solid whitesmoke;
 }
 
 .course-info {
     position: absolute; /* Position absolute for overlay */
     bottom: 0; /* Align to the bottom of the image container */
     left: 0; /* Align to the left of the image container */
-    width: 304px; /* Make the info box the same width as the image container */
+    width: 361px; /* Make the info box the same width as the image container */
     height: 150px;
     background-color: rgba(255, 255, 255, 1); /* Semi-transparent black background */
     padding: 10px; /* Padding for better visibility */
