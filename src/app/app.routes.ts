@@ -28,8 +28,8 @@ export const routes: Routes = [
         component: Page2Component
     },
     {
-        path: 'contact',
-        component: ContactUsComponent
+        path:"contact",
+        component:ContactUsComponent
     },
     {
         path: '', redirectTo: 'page1', pathMatch: 'full'
