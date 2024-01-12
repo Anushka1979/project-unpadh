@@ -6,6 +6,7 @@ import { Page1Component } from './components/page1/page1.component';
 import { Page2Component } from './components/page2/page2.component';
 import { ProgramsHomeComponent } from './components/programs/programs-home/programs-home.component';
 import { ManagementHomeComponent } from './components/programs/management/management-home/management-home.component';
+import { DevelopmentHomeComponent } from './components/programs/Development/development-home/development-home.component';
 
 export const routes: Routes = [
     {
@@ -38,5 +39,9 @@ export const routes: Routes = [
     {
         path: 'managementHome',
         component: ManagementHomeComponent
+    },
+    {
+        path: 'developmentHome',
+        component: DevelopmentHomeComponent
     }
 ];
