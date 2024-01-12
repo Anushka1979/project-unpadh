@@ -4,7 +4,7 @@ import { RegisterComponent } from './components/register/register.component';
 import { NavComponent } from './components/nav/nav.component';
 import { Page1Component } from './components/page1/page1.component';
 import { Page2Component } from './components/page2/page2.component';
-import { HomeComponent } from './components/contact/home/home.component';
+import { ContactUsComponent } from './components/contact-us/contact-us.component';
 
 export const routes: Routes = [
     {
@@ -32,6 +32,6 @@ export const routes: Routes = [
     },
     {
         path: 'contact',
-        component: HomeComponent
+        component: ContactUsComponent
     }
 ];
