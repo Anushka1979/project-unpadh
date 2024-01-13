@@ -9,8 +9,7 @@ import { ProgramsHomeComponent } from './components/programs/programs-home/progr
 import { ManagementHomeComponent } from './components/programs/management/management-home/management-home.component';
 import { DevelopmentHomeComponent } from './components/programs/Development/development-home/development-home.component';
 import { Page1SeriesComponent } from './components/tseries/page1-series/page1-series.component';
-import { DataScienceHomeComponent } from './components/programs/Data-Science/data-science-home/data-science-home.component';
-import { AiHomeComponent } from './components/programs/AI/ai-home/ai-home.component';
+
 
 
 export const routes: Routes = [
@@ -58,13 +57,5 @@ export const routes: Routes = [
   {
     path: 'developmentHome',
     component: DevelopmentHomeComponent,
-  },
-  {
-    path: 'dataScienceHome',
-    component: DataScienceHomeComponent,
-  },
-  {
-    path: 'aiHome',
-    component: AiHomeComponent
   },
 ];
