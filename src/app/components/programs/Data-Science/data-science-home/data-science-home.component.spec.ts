@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ScienceHomeComponent } from './science-home.component';
+import { DataScienceHomeComponent } from './data-science-home.component';
 
-describe('ScienceHomeComponent', () => {
-  let component: ScienceHomeComponent;
-  let fixture: ComponentFixture<ScienceHomeComponent>;
+describe('DataScienceHomeComponent', () => {
+  let component: DataScienceHomeComponent;
+  let fixture: ComponentFixture<DataScienceHomeComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [ScienceHomeComponent]
+      imports: [DataScienceHomeComponent]
     })
     .compileComponents();
     
-    fixture = TestBed.createComponent(ScienceHomeComponent);
+    fixture = TestBed.createComponent(DataScienceHomeComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

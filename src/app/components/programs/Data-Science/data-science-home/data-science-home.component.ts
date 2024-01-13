@@ -7,7 +7,7 @@ import { SliderDS4Component } from '../slider-ds4/slider-ds4.component';
 import { Page7Component } from '../../../page7/page7.component';
 
 @Component({
-  selector: 'app-science-home',
+  selector: 'app-data-science-home',
   standalone: true,
   imports: [
     NavComponent,
@@ -15,9 +15,9 @@ import { Page7Component } from '../../../page7/page7.component';
     SliderDS2Component,
     SliderDS3Component,
     SliderDS4Component,
-    Page7Component
+    Page7Component,
   ],
-  templateUrl: './science-home.component.html',
-  styleUrl: './science-home.component.css',
+  templateUrl: './data-science-home.component.html',
+  styleUrl: './data-science-home.component.css',
 })
-export class ScienceHomeComponent {}
+export class DataScienceHomeComponent {}
