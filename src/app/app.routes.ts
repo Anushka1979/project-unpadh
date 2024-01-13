@@ -48,12 +48,12 @@ export const routes: Routes = [
     path: 'developmentHome',
     component: DevelopmentHomeComponent,
   },
-  {
-    path: 'dataScienceHome',
-    component: DataScienceHomeComponent,
-  },
-  {
-    path: 'aiHome',
-    component: AiHomeComponent
-  },
+  // {
+  //   path: 'dataScienceHome',
+  //   component: DataScienceHomeComponent,
+  // },
+  // {
+  //   path: 'aiHome',
+  //   component: AiHomeComponent
+  // },
 ];
