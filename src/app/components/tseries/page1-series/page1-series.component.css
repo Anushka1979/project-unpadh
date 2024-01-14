@@ -1,0 +1,103 @@
+#about{
+    height: 17vw;
+    padding: 2vw 8vw;
+    background-image: url(https://www.theunpadh.com/storage/page/1689756699pagebanner.jpg);
+    background-size: cover;
+    color: #fff;
+}
+#about h1{
+    font-size: 3.5vw;
+    font-weight: 500;
+    margin-bottom: 0vw;
+}
+#about p{
+    width: 50vw;
+    line-height: 1.5;
+}
+.header{
+    width: 100vw;
+    padding: 2vw 8vw;
+}
+.header>a{
+    color: black;
+    opacity: 0.7;
+    margin: 0.5vw;
+    text-decoration: none;
+}
+.header h1{
+    text-align: center;
+    color: rgb(71, 169, 151);
+    font-weight: 500;
+}
+#container{
+    display: flex;
+    gap: 4vw;
+    flex-wrap: wrap;
+}
+.box{
+    background-image: linear-gradient(#72d3c1, #cffff6, white, #fff);
+    padding: 1vw;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+#img-text-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin-bottom: -10px;
+}
+img{
+    width: 3vw;
+    border-radius: 50px;
+    background-color: #fff;
+}
+#new{
+    background-color:rgb(38, 120, 105) ;
+    color: #fff;
+    padding: 6px;
+    border-radius: 5px;
+}
+h4{
+    font-weight: 500;
+    margin-bottom: -20px;
+}
+
+#line1{
+    height: 1px;
+    background-color: #000; 
+    margin-bottom: 10px;  
+}
+h6{
+    font-size: 12px;
+    font-weight: 400;
+    color: #333;
+    margin-bottom: 15px
+}
+.box a{
+    text-decoration: none;
+    color: #000;
+    opacity: 0.7;
+}
+i{
+    margin-right: 10px;
+    color: #000;
+    font-size: 20px;
+    opacity: 0.8;
+}
+#line2{
+    height: 1px;
+    background-color: #000;
+    margin-top: 10px;
+}
+.box p{
+    font-size: 13px;
+    font-weight: 500;
+}
+button{
+    color: #fff;
+    font-size: 15px;
+    padding: 1vw 4vw;
+    border: none;
+    border-radius: 0.5vw;
+    background-color:rgb(71, 169, 151) ;
+}
